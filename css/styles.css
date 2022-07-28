@@ -1,0 +1,11 @@
+
+.encabezadoizq{float:left;}
+.encabezadoder{float:right;}
+
+
+#encabezado { overflow: hidden; height: 2cm; width: 100%; background-color: #2874A6; border-bottom-left-radius: 8pt; border-bottom-right-radius: 8pt;}
+#logoencabezado {height:1.3cm; width:4.3cm; margin-top: 0.35cm; margin-left: 0.2cm;}
+#textoencabezado{height: max-content; width: 5cm; font-weight: bold; margin-left: 0.9cm; padding-top: 0.4cm; color: white; font-family: monospace; font-weight: bold;}
+#boton-login{float: right; background-color: #2E86C1; color:white; margin-top:0.5cm; margin-right: 0.5cm; margin-left: 0.7cm;}
+#logoinstagram{height:1cm; width:1cm; margin-top:0.35cm; margin-left:0.4cm}
+#logowhatsapp{height:1cm; width:1cm; margin-top:0.35cm}
