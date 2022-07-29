@@ -1,11 +1,126 @@
+/*Selectores de clase*/
 
 .encabezadoizq{float:left;}
+
 .encabezadoder{float:right;}
 
+.contenido{
+    padding-top: 2.2cm; 
+    background-color: #F8F9F9;
+}
 
-#encabezado { overflow: hidden; height: 2cm; width: 100%; background-color: #2874A6; border-bottom-left-radius: 8pt; border-bottom-right-radius: 8pt;}
-#logoencabezado {height:1.3cm; width:4.3cm; margin-top: 0.35cm; margin-left: 0.2cm;}
-#textoencabezado{height: max-content; width: 5cm; font-weight: bold; margin-left: 0.9cm; padding-top: 0.4cm; color: white; font-family: monospace; font-weight: bold;}
-#boton-login{float: right; background-color: #2E86C1; color:white; margin-top:0.5cm; margin-right: 0.5cm; margin-left: 0.7cm;}
-#logoinstagram{height:1cm; width:1cm; margin-top:0.35cm; margin-left:0.4cm}
-#logowhatsapp{height:1cm; width:1cm; margin-top:0.35cm}
+.encabezado { 
+    overflow: hidden; 
+    height: 2cm; 
+    width: 100%; 
+    background-color: #2874A6; 
+    border-bottom-left-radius: 8pt; 
+    border-bottom-right-radius: 8pt; 
+    position: fixed;
+}
+
+.infopersonal{
+width: 100%;
+height: 15cm;
+position:relative;
+}
+
+.banner{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.fotoperfil{
+    position: absolute;
+    bottom: 30%;
+    left:2%;
+}
+
+.infopersonal h2{
+    position:absolute;
+    bottom:35%;
+    left:16%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+
+.infopersonal h3{
+    position:absolute;
+    bottom:30%;
+    left:16%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:lighter;
+    font-size:23px;
+}
+
+.infopersonal p{
+    position:absolute;
+    bottom:19%;
+    left:16%;
+    background-color: #F2F3F4;
+    border-radius: 3%;
+    width: 80%;
+    padding-block: 10;
+    font-size: small;
+    font-weight: 450;
+    
+
+}
+
+
+
+/*Selectores de id*/
+
+#logoencabezado {
+    height:1.3cm; 
+    width:4.3cm; 
+    margin-top: 0.35cm; 
+    margin-left: 0.2cm;
+}
+#textoencabezado{
+    height: max-content; 
+    width: 5cm; 
+    font-weight: bold; 
+    margin-left: 0.9cm; 
+    padding-top: 0.4cm; 
+    color: white; 
+    font-family: monospace; 
+    font-weight: bold;
+}
+
+#boton-login{
+    float: right; 
+    background-color: #2E86C1; 
+    color:white; 
+    margin-top:0.55cm; 
+    margin-right: 1cm; 
+    margin-left: 0.5cm;
+}
+
+#logoinstagram{
+    height:1cm; 
+    width:1cm; 
+    margin-top:0.45cm; 
+    margin-left:0.2cm
+}
+
+#logowhatsapp{
+    height:1cm; 
+    width:1cm; 
+    margin-top:0.45cm
+}
+
+#elbanner{
+width: 100%;
+height: 8cm;
+padding-left:0.2cm;
+padding-right:0.2cm;
+border-radius:2%;
+}
+
+#lafotoperfil{
+    width:4cm;
+    height:4cm;
+    border-radius:50%;
+}
