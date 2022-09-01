@@ -11,27 +11,53 @@
 
 
 <body>
-<!--Encabezado-->
-<div class="encabezado">
-    <!--Parte izquierda del encabezado: logo argentina programa y nombre del programa-->
-    <img class="encabezadoizq" src="/img/logo-corto.png" id="logoencabezado" alt="Logo argentina programa">
-    <p class="encabezadoizq" id="textoencabezado">Argentina Programa - #YoProgramo</p>
-    <!--Parte derecha del encabezado: login, whatsapp e instagram-->
-    <h4 class="encabezadoder" id="boton-login">Inicia sesión</h4>
-    <img src="/img/logo-instagram.jpg" alt="logo instagram" class="encabezadoder" id="logoinstagram">
-    <img src="/img/logo-whatsapp-corto.png" alt="logo whatsapp" class="encabezadoder" id="logowhatsapp">
-</div>
-<div class="contenido">
-    <!--Info personal: banner y foto de perfil y texto con información-->
-<div class="infopersonal">
-    <img class="banner" id="elbanner" src="https://osr.org/wp-content/uploads/2020/05/galaxias.jpg" alt="Imagen de una galaxia">
-    <img class="fotoperfil" id="lafotoperfil" src="/img/foto para perfil.jpg" alt="Foto perfil">
-    <h2>Lourdes De Carolis</h2>
-    <h3>Full Stack Developer Jr.</h3>
-    <p>Mi nombre es Lourdes De Carolis. Soy estudiante de Letras en la Universidad de Buenos Aires, además de tener el título de Full Stack Developer. Me interesa esto y lo otro, me gusta esto. En mis tiempos libres hago tal cosa y soy muy buena y todo eso que hay que decir en un currículum.</p> 
-</div> 
 
-</div>
+          <!--Encabezado-->
+  <nav class="navbar navbar-expand encabezado" style="background-color: #dbddb4;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img class="logotipo" src="/img/logo-corto.png" alt="Logo argentina programa">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 links">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Educación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Experiencia</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Habilidades</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Proyectos
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Portfolio</a></li>
+              <li><a class="dropdown-item" href="#">Pastoral</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <ul class="ms-auto mb-1 mb-lg-0">
+          <li>
+            <img class="iconos-redes-header" src="/img/logowppbien.jpg" alt="Logo whatsapp">
+            <img class="iconos-redes-header" src="/img/logoigbien.jpg" alt="Logo instagram">
+          </li>
+        </ul>
+
+        <button type="button" class="btn btn-dark boton-header" style="background-color: #76877d;">Log in</button>
+        
+      </div>
+    </div>
+</nav>
+          <!--Termina encabezado-->
+
+
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>
